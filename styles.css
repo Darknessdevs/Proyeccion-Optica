@@ -9,6 +9,7 @@ body {
     background: #0a0a0a;
     color: #ffffff;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -97,6 +98,8 @@ nav {
     position: relative;
     overflow: hidden;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 100%);
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .hero-bg {
@@ -238,6 +241,7 @@ section {
     padding: 120px 40px;
     max-width: 1400px;
     margin: 0 auto;
+    scroll-margin-top: 100px;
 }
 
 .services {
